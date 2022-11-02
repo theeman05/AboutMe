@@ -1,0 +1,11 @@
+site_name: About Me
+site_url: https://theeman05.github.io/AboutMe/
+repo_name: theeman05/AboutMe
+
+theme:
+  name: material
+  highlightjs: true
+  hljs_style: github-dark
+  palette:
+    scheme: slate
+    primary: pink
