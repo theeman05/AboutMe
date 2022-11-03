@@ -1,5 +1,3 @@
-<center> Hello and welcome to my personal website built this to showcase important documents and introduce myself. </center>
-
 ## Overview
 My name is Ethan Hartman, and I am currently a Junior at [Rochester Institute of Technology](https://www.rit.edu/) pursuing a Bachelor of Science in Computer Science degree. I began programming when I was about 13 years old and have loved it since. I have worked on [numerous projects](projects.md) in the past including games, research projects, and small programs, which I am quite proud of. Feel free to check those out and learn more about my coding style, and the function of those projects. When working on projects, I base them around the grand scheme, where all current actions will affect the future. Additionally, my favorite projects are those which have a positive impact or can be applied to benefit the future. I enjoy sharing my ideas with others and incorporating their feedback into projects. More recently, I've been searching for a Co-Op this summer (2023) involving software engineering, data structures, AI algorithms, or something else related to computer science. I’m not entirely sure which field of computer science I’d like to work in, so please [contact me](#contactme) with any questions. 
 
@@ -12,6 +10,16 @@ In the past, I have played soccer, ran track, and swam. I played soccer for nume
 
 ---
 
+## Skills
+
+Programming Languages: Lua, Java, Python, C++, C#, C, SQL, .NET, HTML, CSS
+
+Development Software: Roblox Studio, IntelliJ, PyCharm, Microsoft Visual Studio (&Code), Unity
+
+Operating Systems: MS Windows, Android
+
+---
+
 Other resources may be visited using the navigation panel to the left. 
 
 Thank you for visiting my website.
@@ -19,9 +27,42 @@ Thank you for visiting my website.
 ---
 
 <center id = "contactme">
-  <a id="email" onclick="copyElementText(document.getElementById('email'))">ehh4525@rit.edu</a> | 
-  <a id="phone number" onclick="copyElementText(document.getElementById('phone number'))">(585) 719-5247</a>
+  <a class="copytooltip" id="email" onclick="copyElementText(document.getElementById('email'))">
+    ehh4525@rit.edu
+	<span class="tooltiptext">Click to copy</span>
+  </a> | 
+  <a class="copytooltip" id="phone number" onclick="copyElementText(document.getElementById('phone number'))">
+	(585) 719-5247
+	<span class="tooltiptext">Click to copy</span>
+  </a>
 </center>
+
+<style>
+.copytooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.copytooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.copytooltip:hover .tooltiptext {
+  visibility: visible;
+}
+</style>
 
 <script>
 function copyElementText(element) {
