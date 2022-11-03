@@ -1,4 +1,4 @@
-The college courses I have completed or plan on completing are listed below under their given category (Some [Other](#Other) classes may not be listed).
+The college courses I have completed or plan on completing are listed below under their given category (some [Other](#Other) classes may not be listed).
 
 ## In-Progress
 
