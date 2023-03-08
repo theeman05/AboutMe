@@ -341,11 +341,11 @@ In the past, I have played soccer, ran track, and swam. I played soccer for nume
 <p>Thank you for visiting my website.</p>
 <hr />
 <p><center id = "contactme">
-  <a class="copytooltip" id="email" onclick="copyElementText(document.getElementById('email'))">
+  <a class="copytooltip" id="email" onclick="copyEmail()">
     ehh4525@rit.edu
     <span class="tooltiptext">Click to copy</span>
   </a> | 
-  <a class="copytooltip" id="phone number" onclick="copyElementText(document.getElementById('phone number'))">
+  <a class="copytooltip" id="phone number" onclick="copyPhoneNr()">
     (585) 719-5247
     <span class="tooltiptext">Click to copy</span>
   </a>
@@ -378,9 +378,13 @@ In the past, I have played soccer, ran track, and swam. I played soccer for nume
 </style>
 
 <script>
-function copyElementText(element) {
-  navigator.clipboard.writeText(element.textContent);
-  alert("Copied " + element.id);
+function copyEmail() {
+  navigator.clipboard.writeText("ehh4525@rit.edu");
+  alert("Copied Email.");
+}
+function copyPhoneNr() {
+  navigator.clipboard.writeText("(585) 719-5247");
+  alert("Copied Phone Number.");
 }
 </script>
                 
