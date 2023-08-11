@@ -1,12 +1,13 @@
-The college courses I have completed or plan on completing are listed below under their given category (some [Other](#Other) classes may not be listed).
+The college courses I have completed, or plan on completing are listed below under their given category (some [other](#other) classes may not be listed).
 
 ## In-Progress
 
-- CSCI 242: Computer Science for Transfer Students
-- IMGS 111: Imaging Science Fundamentals
-- MATH 181: Project-Based Calculus I
-- MEDG 101: Human Biology I
-- STSO 330: Energy and the Environment
+- CSCI 261: ANALYSIS OF ALGORITHMS
+- STSO 220: ENVIRONMENT AND SOCIETY
+- CSCI 331: INTRO ARTIFICIAL INTELLIGENCE
+- CSCI 431: INTRO TO COMPUTER VISION
+- SWEN 261: INTRO TO SOFTWARE ENGINEERING
+- PHYS 207: UNIV PHYS I AP-C WAVES
 
 ---
 
@@ -14,6 +15,8 @@ The college courses I have completed or plan on completing are listed below unde
 
 ### Technological
 
+- CSCI 262: Intro to Computer Science Theory
+- CSCI 320: Principals of Data Management
 - CSCI 141: Computer Science I
 - CSCI 243: The Mechanics of Programming
 - CSCI 250: Concepts of Computer Systems
@@ -24,6 +27,13 @@ The college courses I have completed or plan on completing are listed below unde
 
 ### Other
 
+- MATH 251: Probability and Statistics
+- MLFR 151: Film, Comics, & French Culture
+- MATH 241: Linear Algebra
+- WREC 72: Skiing / Snowboarding
+- MEDG 101: Human Biology I
+- STSO 330: Energy and the Environment
+- IMGS 111: Imaging Science Fundamentals
 - PHYS 206: University Physics I: AP-C Mechanics
 - PHYS 212: University Physics II
 - MATH 182A: Calculus II
@@ -35,11 +45,15 @@ The college courses I have completed or plan on completing are listed below unde
 
 ---
 
-## Planned for Upcoming Semester
+## Planned for Final Semester
 
-- CSCI 262: Intro to Computer Science Theory
-- CSCI 320: Principals of Datra Management
-- EXSC 205: Sports Phsychology and Life Fitness
-- MATH 251: Probability and Statistics
-- STSO 321: Face of the Land
-- WREC 72: Skiing / Snowboarding
+- CSCI 251: Concepts of Parallel and Distributed Systems
+- CSCI 344: Programming Language Concepts
+- CSCI 471: Professional Communications
+- CS Cluster Elective (Potential options below)
+    - CSCI 421: Database System Implementation
+    - CSCI 335: Machine Learning
+- Gen Ed Immersion (Potential options below)
+    - PUBL 530: Energy Policy
+    - STSO 321: Face of the Land
+- Wellness Course (Rock Climbing?)
