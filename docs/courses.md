@@ -2,12 +2,12 @@ The college courses I have completed, or plan on completing are listed below und
 
 ## In-Progress
 
-- CSCI 261: ANALYSIS OF ALGORITHMS
-- STSO 220: ENVIRONMENT AND SOCIETY
-- CSCI 331: INTRO ARTIFICIAL INTELLIGENCE
-- CSCI 431: INTRO TO COMPUTER VISION
-- SWEN 261: INTRO TO SOFTWARE ENGINEERING
-- PHYS 207: UNIV PHYS I AP-C WAVES
+- CSCI 261: Analysis of Algorithms
+- STSO 220: Environment and Society
+- CSCI 331: Intro to Artificial Intelligence
+- CSCI 431: Intro to Computer Vision
+- SWEN 261: Intro to Software Engineering
+- PHYS 207: University Physics I AP-C Waves
 
 ---
 

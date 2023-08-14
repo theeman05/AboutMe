@@ -12,7 +12,7 @@ In the past, I played soccer, ran track, and swam. I played soccer for numerous 
 
 ## Skills
 
-Programming Languages: Lua, Java, Python, SQL, C++, C#, C, SQL, .NET, HTML, CSS
+Programming Languages: Lua, Java, Python, SQL, C++, C#, C, .NET, HTML, CSS
 
 Development Software: Roblox Studio, IntelliJ, PyCharm, Microsoft Visual Studio(&Code), Unity, GitHub
 
