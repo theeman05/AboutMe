@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethan Hartman | Software Engineer & Developer</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <nav class="site-nav">
+        <a href="#" class="logo">
+            <img src="assets/images/profile-icon.png" alt="Ethan Hartman" class="nav-profile-pic">
+            EH.
+        </a>
+        <ul class="nav-links">
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#gallery">Life</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="hero" class="reveal-up">
+            <video id="hero-video" class="hero-bg-video" autoplay muted loop playsinline></video>
+
+            <div class="hero-content reveal-up">
+                <h1 class="hero-title">Ethan Hartman.</h1>
+                <h2 class="hero-subtitle">Software Engineer. Utility Builder. Game Developer.</h2>
+                <a href="#projects" class="cta-button primary">View My Projects</a>
+                <a href="assets/files/Hartman_Ethan_CS_Resume.pdf" class="cta-button secondary" download>Download Resume</a>
+            </div>
+        </section>
+
+        <section id="projects" class="selected-projects reveal-up">
+            <h3 class="section-heading reveal-left">Featured Projects</h3>
+
+            <article class="project-card reveal-up asymmetrical-left">
+                <figure class="project-media reveal-right">
+                    <img src="assets/images/crazy-dice-view.jpg" alt="Deck Builder Crazy Dice">
+                </figure>
+
+                <div class="project-details reveal-left">
+                    <h4 class="project-title">Crazy Dice Tower Defense</h4>
+
+                    <p class="project-description">A retro-stylized tower defense experience centered around strategic deck-building and dynamic dice mechanics.</p>
+
+                    <ul class="tech-stack">
+                        <li class="status-badge">⚡ Active Development</li>
+                        <li class="metric-badge">🔥 55k+ Visits</li>
+                        <li>Luau</li>
+                        <li>Game Design</li>
+                        <li>Multiplayer (PvP/PvE)</li>
+                        <li>GUI Architecture</li>
+                    </ul>
+
+                    <button class="cta-button secondary project-modal-trigger"
+                            data-title="Crazy Dice: Gameplay & Features"
+                            data-content="
+                            <p><strong>Crazy Dice</strong> is a retro-stylized tower defense game that blends chaos with deep strategy. Whether fighting solo, teaming up with a friend in PvE, or climbing the ranks in real-time PvP, the core loop relies on mastering a diverse set of dice with unique abilities.</p>
+                            <br>
+                            <p><strong>Core Features:</strong></p>
+                            <ul>
+                                <li><strong>Dynamic Combat:</strong> Battle diverse enemies and bosses using a near-infinite number of deck combinations.</li>
+                                <li><strong>Competitive & Co-op:</strong> Over 30 classes to climb in real-time PvP, alongside robust, multi-mode PvE.</li>
+                                <li><strong>Retro Aesthetic:</strong> Features an original, catchy 8-bit-inspired soundtrack.</li>
+                                <li><strong>Player-First Design:</strong> Built around an exciting, free-to-play friendly progression system.</li>
+                                <li><strong>Proven Traction:</strong> Enjoyed by a massive, growing community with over 55,000 accumulated game visits.</li>
+                            </ul>
+
+                            <div class='video-responsive'>
+                                <iframe src='https://www.youtube.com/embed/z2vQMa3Mcuw' title='Crazy Dice Trailer' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+                            </div>
+                            ">
+                        Watch Trailer & Details
+                    </button>
+                </div>
+            </article>
+
+            <article class="project-card reveal-up asymmetrical-right">
+                <div class="project-details reveal-left">
+                    <h4 class="project-title">Macro Studio</h4>
+
+                    <p class="project-description">An API-documented, robust automation framework bridging the gap between simple macro recorders and complex software development.</p>
+
+                    <ul class="tech-stack">
+                        <li class ="metric-badge">🔥 Open Source</li>
+                        <li>Python 3.10+</li>
+                        <li>Multithreading</li>
+                        <li>OpenCV & OCR</li>
+                        <li>GUI Architecture</li>
+                    </ul>
+
+                    <button class="cta-button secondary project-modal-trigger"
+                            data-title="Macro Studio: Engine Architecture"
+                            data-content="
+                            <p><strong>Macro Studio</strong> is not just a traditional click-recorder; it is a limitless automation engine. If you can code it in Python, you can automate it. It was designed to hand users the keys to a Saturn V rocket, rather than a tricycle.</p>
+                            <br>
+                            <p><strong>Core Architecture & Features:</strong></p>
+                            <ul>
+                                <li><strong>Visual Task Manager:</strong> A real-time graphical interface built to monitor and control the execution flow of background Python threads safely.</li>
+                                <li><strong>Dynamic Variable Management:</strong> The engine exposes script variables directly to the GUI, allowing end-users to tweak profile settings without ever touching the underlying code.</li>
+                                <li><strong>No-Code to Code:</strong> Features a built-in visual task recorder capable of exporting captured sequences directly into standalone, runnable Python scripts.</li>
+                                <li><strong>Advanced Integrations:</strong> Natively supports thread-safe mouse and keyboard simulation, alongside computer vision libraries like OpenCV and Tesseract OCR.</li>
+                            </ul>
+
+                            <p><em>Distributed under the GNU GPLv3 License.</em></p>
+
+                            <div style='margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;'>
+                                <a href='https://theeman05.github.io/MacroStudio/' target='_blank' class='cta-button primary'>View Documentation</a>
+                                <a href='https://github.com/theeman05/MacroStudio' target='_blank' class='cta-button secondary'>View GitHub Repo</a>
+                            </div>
+                            ">
+                        Learn More
+                    </button>
+                </div>
+
+                <figure class="project-media reveal-right">
+                    <img src="https://github.com/theeman05/MacroStudio/raw/master/docs/assets/TaskManager.png" alt="Interface of Macro Studio">
+                </figure>
+            </article>
+
+            <article class="project-card reveal-up asymmetrical-left">
+                <figure class="project-media reveal-right">
+                    <img src="assets/images/smart-fan.jpg" alt="Image of Smart Fan">
+                </figure>
+
+                <div class="project-details reveal-left">
+                        <h4 class="project-title">Smart Fan Controller</h4>
+
+                        <p class="project-description">An embedded systems project simulating an automated smart fan on a Dragon12-Light microcontroller. Engineered in bare-metal C and Assembly to process real-time sensor data for temperature-based automation and precise motor control.</p>
+
+                        <ul class="tech-stack">
+                            <li>C & Assembly</li>
+                            <li>Embedded Systems</li>
+                            <li>Microcontrollers</li>
+                            <li>Hardware Sensors</li>
+                        </ul>
+
+                        <button class="cta-button secondary project-modal-trigger"
+                                data-title="Smart Fan: Embedded Architecture"
+                                data-content="
+                                <p>This project demonstrates low-level hardware programming and real-time state management. By interfacing directly with the Dragon12-Light board's components, the system translates physical environmental changes into automated mechanical responses.</p>
+                                <br>
+                                <p><strong>Core Hardware Logic:</strong></p>
+                                <ul>
+                                    <li><strong>Thermal Automation:</strong> Actively polls temperature sensors to trigger dynamic activation and shut-off thresholds.</li>
+                                    <li><strong>Hardware Interrupts:</strong> Utilizes low-level clock cycles for precise, timer-based power management.</li>
+                                    <li><strong>Dynamic Output Control:</strong> Adjusts variable speeds and directional orientation based on real-time hardware state changes.</li>
+                                </ul>
+
+                                <p style='margin-top: 1.5rem; font-weight: bold;'>Live Demonstration:</p>
+
+                                <div style='position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); margin-top: 0.5rem;'>
+                                    <iframe src='https://drive.google.com/file/d/1-Xgyfbko8Xa59LnwpV4MN3cyr_fQQYYQ/preview' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;' allow='autoplay; encrypted-media' allowfullscreen></iframe>
+                                </div>
+                                ">
+                            Watch Hardware Demo
+                        </button>
+                    </div>
+            </article>
+
+            <div class="archive-link-wrapper reveal-up" style="text-align: center; margin-top: 4rem;">
+                <a href="archive.html" class="cta-button secondary">
+                    View Full Project Archive &rarr;
+                </a>
+            </div>
+
+        </section>
+
+        <section id="experience" class="reveal-up">
+            <h3 class="section-heading">Professional Journey</h3>
+
+            <div class="experience-timeline">
+
+                <div class="timeline-item reveal-up">
+                    <div class="role-title">Pharmacy Technician</div>
+                    <div class="company-info">CVS Health | Nov 2021 – Jan 2026</div>
+                    <ul>
+                        <li>Ensured rigorous quality assurance and regulatory compliance for over four years.</li>
+                        <li>Utilized specialized software to manage high-volume administrative records.</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item reveal-up">
+                    <div class="role-title">Senior Support Center Representative</div>
+                    <div class="company-info">Jack Morton Worldwide | Apr 2025 – Sep 2025</div>
+                    <ul>
+                        <li>Managed database systems and data flow for global technical infrastructure.</li>
+                        <li>Resolved critical technical escalations for VMware Explore 2025.</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item reveal-up">
+                    <div class="role-title">Innovation Fellow (Software Developer)</div>
+                    <div class="company-info">Rochester Institute of Technology | Jun 2023 – Aug 2023</div>
+                    <ul>
+                        <li>Developed an MVP for a start-up concept using C# and entrepreneurial scoping.</li>
+                        <li>Conducted technical viability research and stakeholder discovery.</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item reveal-up">
+                    <div class="role-title">Research Internship (AR Development)</div>
+                    <div class="company-info">Javlyn Process Systems | Jul 2022 – Aug 2022</div>
+                    <ul>
+                        <li>Built an Augmented Reality program for HoloLens 2 using the Mixed Reality API.</li>
+                        <li>Integrated SQL databases with C# to visualize real-time factory data.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="gallery" class="human-element reveal-left">
+            <h3 class="section-heading">Off-Screen</h3>
+            <p class="section-subtext">Life away from the keyboard.</p>
+
+            <div class="masonry-grid">
+                <figure class="masonry-item project-modal-trigger reveal-up"
+                    data-title="Biking in Angkor Thom, Cambodia"
+                    data-content="<img src='assets/images/angkor-thom-full.webp' class='modal-img-full' alt='Biking in Angkor Thom, Cambodia'>">
+
+                    <div class="image-wrapper">
+                        <img src="assets/images/angkor-thom-thumb.webp" alt="Biking in Angkor Thom, Cambodia">
+                    </div>
+                </figure>
+                <figure class="masonry-item project-modal-trigger reveal-up"
+                    data-title="Sitting on Vietnam's Death Rock"
+                    data-content="<img src='assets/images/death-rock-full.webp' class='modal-img-full' alt='Sitting on Vietnam's Death Rock'>">
+
+                    <div class="image-wrapper">
+                        <img src="assets/images/death-rock-thumb.webp" alt="Sitting on Vietnam's Death Rock">
+                    </div>
+                </figure>
+                <figure class="masonry-item project-modal-trigger reveal-up"
+                    data-title="Snowboarding at Mt Killington, Vermont"
+                    data-content="<img src='assets/images/snowboarding-killington-full.webp' class='modal-img-full' alt='Snowboarding at Mt Killington, Vermont'>">
+
+                    <div class="image-wrapper">
+                        <img src="assets/images/snowboarding-killington-thumb.webp" alt="Snowboarding at Mt Killington, Vermont">
+                    </div>
+                </figure>
+                <figure class="masonry-item project-modal-trigger reveal-up"
+                    data-title="Hiking Machu-Picchu in Peru"
+                    data-content="<img src='assets/images/machu-picchu-full.webp' class='modal-img-full' alt='High res hike'>">
+
+                    <div class="image-wrapper">
+                        <img src="assets/images/machu-picchu-thumb.webp" alt="Machu-Picchu Thumbnail">
+                    </div>
+                </figure>
+                <figure class="masonry-item project-modal-trigger reveal-up"
+                    data-title="Riding in Khao Sok National Park, Thailand"
+                    data-content="
+                    <div class='video-responsive'>
+                        <iframe src='https://www.youtube.com/embed/OrrV_5FUrXI?autoplay=1' title='Riding in Khao Sok National Park' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+                    </div>
+                    ">
+
+                    <div class="image-wrapper">
+                        <img src="assets/images/khao-sok-ride.jpg" alt="Riding in Khao Sok National Park, Thailand">
+                        <div class="play-overlay">
+                            <svg class="play-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                </figure>
+                <figure class="masonry-item project-modal-trigger reveal-up"
+                    data-title="Sending a Bouldering Route"
+                    data-content="
+                    <div class='video-responsive'>
+                        <iframe src='https://www.youtube.com/embed/HohIIGXq6_8?autoplay=1' title='Sending a bouldering route' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+                    </div>
+                    ">
+
+                    <div class="image-wrapper">
+                        <img src="assets/images/boulder-send-poster.jpg" alt="Sending a bouldering route">
+                        <div class="play-overlay">
+                            <svg class="play-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                </figure>
+            </div>
+        </section>
+
+        <section id="contact" class="toolkit-contact reveal-down">
+            <div class="marquee-container reveal-left">
+                <ul class="tech-stack marquee-track" id="marquee-track">
+                    <li class="metric-badge">🔥Luau</li>
+                    <li class="metric-badge">🔥Python</li>
+                    <li>Java</li>
+                    <li>C++</li>
+                    <li>C#</li>
+                    <li>Git</li>
+                </ul>
+            </div>
+
+            <div class="contact-card reveal-up">
+                <img src="assets/images/profile-icon.png" alt="Ethan Hartman" class="contact-avatar">
+                <div class="contact-info">
+                    <h3 class="contact-heading">Let's build something.</h3>
+                    <p>Currently open for new opportunities and collaborations.</p>
+                    <div class="contact-wrapper">
+                        <button id="copy-email" class="cta-button primary" data-email="ethan.h.hartman@gmail.com">
+                            <span class="btn-text">Get in Touch</span>
+                        </button>
+                        <span id="email-tooltip" class="copy-tooltip">Email Copied!</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div id="lightbox" class="lightbox-modal">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <div id="project-modal" class="lightbox-modal">
+        <span class="lightbox-close">&times;</span>
+
+        <div class="modal-content-box">
+            <h3 id="modal-title">Project Title</h3>
+            <div id="modal-body">
+                </div>
+        </div>
+    </div>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="js/scripts.js"></script>
+    <script src="js/footer.js"></script>
+</body>
+</html>
