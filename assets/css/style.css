@@ -888,6 +888,14 @@ img.lightbox-content {
     font-size: 1.1rem;
 }
 
+.featured-cue {
+    margin-left: 0.65rem;
+    color: var(--accent);
+    font-size: 0.8rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
 .pt-tech {
     font-family: var(--font-main);
     font-size: 0.85rem;
