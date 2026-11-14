@@ -109,8 +109,10 @@ button {
     width: 100%;
     padding: 1.5rem 5%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    row-gap: 0.75rem;
     background: color-mix(in srgb, var(--bg-dark) 80%, transparent);
     backdrop-filter: blur(10px); /* Premium glassmorphism effect */
     z-index: 1000;
@@ -125,7 +127,18 @@ button {
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 2rem;
+    flex: 1 1 12rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 0.75rem 2rem;
+    min-width: 0;
+}
+
+#projects,
+#experience,
+#gallery,
+#contact {
+    scroll-margin-top: 9rem;
 }
 
 .nav-links a {
@@ -415,8 +428,12 @@ button {
     .masonry-grid {
         column-count: 1;
     }
-    .nav-links {
-        display: none; /* In a full build, you'd replace this with a hamburger menu */
+
+    #projects,
+    #experience,
+    #gallery,
+    #contact {
+        scroll-margin-top: 11rem;
     }
 }
 
