@@ -2,7 +2,6 @@
    1. DESIGN SYSTEM & RESET
    ========================================= */
 :root {
-    /* Color Palette */
     --bg-dark: #141210;
     --bg-card: #1f1c18;
     --text-primary: #f6f1e8;
@@ -110,7 +109,6 @@ button {
     padding: 1.5rem 5%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
     row-gap: 0.75rem;
     background: color-mix(in srgb, var(--bg-dark) 80%, transparent);
@@ -782,8 +780,6 @@ img.lightbox-content {
 }
 
 .timeline-item {
-    position: relative;
-    margin-bottom: 0;
     padding: 1.5rem;
     background: var(--bg-dark);
     border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
@@ -892,12 +888,10 @@ img.lightbox-content {
     margin-left: 0.65rem;
     color: var(--accent);
     font-size: 0.8rem;
-    font-weight: 700;
     white-space: nowrap;
 }
 
 .pt-tech {
-    font-family: var(--font-main);
     font-size: 0.85rem;
     color: var(--accent) !important;
 }
