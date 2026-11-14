@@ -157,14 +157,13 @@ button {
    ========================================= */
 #hero {
     position: relative;
-    height: 100vh;
     width: 100%;
     overflow: hidden;
     display: flex;
-    flex-direction: column;   /* Ensures content stacks properly */
-    align-items: center;      /* Centers content horizontally */
-    justify-content: center;  /* Centers content vertically */
-    padding: 0 5%;            /* Gives breathing room on small screens */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8rem 5% 3rem;
 }
 
 /* Background Video */
@@ -774,30 +773,21 @@ img.lightbox-content {
 .experience-timeline {
     position: relative;
     width: 100%;
-    max-width: 700px; /* Keeps the timeline from becoming too wide */
+    max-width: 700px;
     margin: 2rem auto;
-    padding-left: 3rem; /* Extra space for the vertical line and dots */
-    border-left: 2px solid color-mix(in srgb, var(--accent) 30%, transparent);
-    text-align: left; /* Keeps the text naturally readable */
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    text-align: left;
 }
 
 .timeline-item {
     position: relative;
-    margin-bottom: 3rem;
-}
-
-/* Adjust the dot position to match the new padding */
-.timeline-item::before {
-    content: '';
-    position: absolute;
-    left: calc(-3rem - 9px); /* Centers the dot perfectly on the line */
-    top: 0.5rem;
-    width: 12px;
-    height: 12px;
+    margin-bottom: 0;
+    padding: 1.5rem;
     background: var(--bg-dark);
-    border: 2px solid var(--accent);
-    border-radius: 50%;
-    z-index: 2;
+    border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+    border-radius: 12px;
 }
 
 .role-title {
@@ -817,6 +807,7 @@ img.lightbox-content {
 .timeline-item ul {
     list-style: none;
     color: var(--text-secondary);
+    padding-left: 1.5rem;
 }
 
 .timeline-item li {
